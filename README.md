@@ -41,9 +41,9 @@ It is recommended to use `3D Slicer` or `ITK-SNAP` to view the images and labels
 
 U-Net Results (max_lr=0.004, min_lr=0.002):
 
-![loss](/Users/yuchao/Library/Mobile Documents/com~apple~CloudDocs/_NYU/study/2024Spring/CS-GY_6953/final-project/experiments/codebase/DL_spring2024_Final_Project/loss.png)
+![loss](loss.png)
 
-![average](/Users/yuchao/Library/Mobile Documents/com~apple~CloudDocs/_NYU/study/2024Spring/CS-GY_6953/final-project/experiments/codebase/DL_spring2024_Final_Project/average.png)
+![average](average.png)
 
 A full version of the code you can view by this link: https://www.kaggle.com/code/yucgao/dl-spring2024-final-v2
 
