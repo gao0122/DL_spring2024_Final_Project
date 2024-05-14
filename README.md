@@ -9,11 +9,11 @@ This is a `Kaggle` python notebook, all settings are based on `Kaggle` environme
 
 Add the following input dataset before you run. Name the train list dataset as 'train-list':
 
-![image-20240513221044619](dataset.png)
+![image-20240513221044619](img/dataset.png)
 
 After adding inputs, it will be like this:
 
-![image-20240513221430249](input.png)
+![image-20240513221430249](img/input.png)
 
 Each case includes MRI images in four modalities along with segmentation labels, structured as follows:
 
@@ -41,9 +41,9 @@ It is recommended to use `3D Slicer` or `ITK-SNAP` to view the images and labels
 
 U-Net Results (max_lr=0.004, min_lr=0.002):
 
-![loss](loss.png)
+![loss](img/loss.png)
 
-![average](average.png)
+![average](img/average.png)
 
 A full version of the code you can view by this link: https://www.kaggle.com/code/yucgao/dl-spring2024-final-v2
 
