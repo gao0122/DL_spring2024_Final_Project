@@ -5,9 +5,9 @@ This is U-Net and Attention U-Net for brain tumor segmentation.
 
 ### Data
 
-This is a `Kaggle` python notebook, all settings are based on `Kaggle` environment. 
+This is a `Kaggle` python notebook, all settings are based on `Kaggle` environment. If you want to run it in a different environment, just fix the input and output file path.
 
-Add the following input dataset before you run. Name the train list dataset as 'train-list':
+Add the following input dataset before you run it on `Kaggle`. Name the train list dataset as 'train-list':
 
 ![image-20240513221044619](img/dataset.png)
 
@@ -49,4 +49,4 @@ A full version of the code you can view by this link: https://www.kaggle.com/cod
 
 View the example notebook with full results: https://github.com/gao0122/DL_spring2024_Final_Project/blob/main/dl-spring2024-final-output-example.ipynb
 
-The plot notebook is for plotting by log outputs in case the running notebook is interrupted.
+The plot notebook is a backup notebook for plotting only by log outputs in case the running notebook is interrupted.
