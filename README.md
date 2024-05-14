@@ -3,17 +3,17 @@
 
 This is U-Net and Attention U-Net for brain tumor segmentation. 
 
-### Preparation
+### Data
 
 This is a `Kaggle` python notebook, all settings are based on `Kaggle` environment. 
 
 Add the following input dataset before you run. Name the train list dataset as 'train-list':
 
-![image-20240513221044619](/Users/yuchao/Library/Application Support/typora-user-images/image-20240513221044619.png)
+![image-20240513221044619](dataset.png)
 
 After adding inputs, it will be like this:
 
-![image-20240513221430249](/Users/yuchao/Library/Application Support/typora-user-images/image-20240513221430249.png)
+![image-20240513221430249](input.png)
 
 Each case includes MRI images in four modalities along with segmentation labels, structured as follows:
 
@@ -36,6 +36,14 @@ Segmentation Labels: [0, 1, 2, 4]
 - Label 4: Enhancing tumor region (ET)
 
 It is recommended to use `3D Slicer` or `ITK-SNAP` to view the images and labels for a visual understanding of the dataset you are working with.
+
+### Outputs
+
+U-Net Results (max_lr=0.004, min_lr=0.002):
+
+![loss](/Users/yuchao/Library/Mobile Documents/com~apple~CloudDocs/_NYU/study/2024Spring/CS-GY_6953/final-project/experiments/codebase/DL_spring2024_Final_Project/loss.png)
+
+![average](/Users/yuchao/Library/Mobile Documents/com~apple~CloudDocs/_NYU/study/2024Spring/CS-GY_6953/final-project/experiments/codebase/DL_spring2024_Final_Project/average.png)
 
 A full version of the code you can view by this link: https://www.kaggle.com/code/yucgao/dl-spring2024-final-v2
 
